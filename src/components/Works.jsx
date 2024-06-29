@@ -22,7 +22,7 @@ const ProjectCard = ({
     <>
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <div className=" bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full opacity-100">
-          <div className="relative w-full h-[200px] opacity-100">
+          <div className="relative w-full xl:h-[200px] h-[200px] md:h-[200px] opacity-100">
             <video
               src={video}
               alt={"VIDEO"}
