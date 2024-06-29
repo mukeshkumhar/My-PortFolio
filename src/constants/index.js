@@ -196,7 +196,7 @@ const projects = [
   {
     name: "Password Generator App",
     description:
-      "Choose the character types you desire - uppercase, lowercase, numbers, or symbols. Generate passwords with any combination or focus on a single type for specific needs. Easily copy the generated password to your clipboard with a LONG PRESS. ",
+      "Choose the character types uppercase, lowercase, numbers, or symbols. Easily copy with a LONG PRESS",
     tags: [
       {
         name: "React-Native",
@@ -221,7 +221,7 @@ const projects = [
   {
     name: "Recipe App",
     description:
-      "this app has got you covered! 🥗 Dive into the simplicity of four distinct categories: Salad, Main, Dessert, and Drinks. Easily navigate through each category, selecting your preferred dish to reveal detailed insights. Each recipe comes with a time indicator.",
+      "🥗 Dive into the simplicity of four distinct categories: Salad, Main, Dessert, and Drinks. Each recipe comes with a time indicator.",
     tags: [
       {
         name: "Kotlin",
@@ -245,7 +245,7 @@ const projects = [
   {
     name: "Todo List App",
     description:
-      "This app goes beyond basic task management, offering seamless user experience and data persistence. User Authentication, MongoDB Integration, Intuitive Home Page, Calendar View, Profile Section with Charts.",
+      "User Authentication, MongoDB Integration, Intuitive Home Page, Calendar View, Profile Section with Charts.",
     tags: [
       {
         name: "React-Native",
@@ -269,7 +269,7 @@ const projects = [
   {
     name: "Tic Tac Toe ",
     description:
-      "Tic Tac Toe game using Java for Android users.With a focus on simplicity and clean design, I've crafted a smooth gameplay experience. The app features a handy reset button, allowing you to restart the game at any point. Plus, it keeps track of turns and declares the ultimate winner!",
+      "The app features a handy reset button, it keeps track of turns and declares the ultimate winner!",
     tags: [
       {
         name: "JAVA",
@@ -294,7 +294,7 @@ const projects = [
   {
     name: "Movies Website",
     description:
-      "The website boasts a clean and modern aesthetic that prioritizes user experience. This allows visitors to navigate and find information quickly and efficiently.A search bar empowers users to find specific movies by title with ease. Movies are categorized by genre, Action, or other relevant criteria.",
+      "Navigate and find information quickly. A search bar empowers users to find specific movies. Movies are categorized.",
     tags: [
       {
         name: "JAVA",
@@ -319,7 +319,7 @@ const projects = [
   {
     name: "PortFolio Website",
     description:
-      "The website embraces a minimalist aesthetic and a focus on showcasing your work.While maintaining a clean look, the website offers all the functionalities expected in a portfolio. This likely includes clear navigation to different sections like About Me, Projects and Contact.",
+      "This likely includes clear navigation to different sections like About Me, Projects and Contact.",
     tags: [
       {
         name: "JAVA",
