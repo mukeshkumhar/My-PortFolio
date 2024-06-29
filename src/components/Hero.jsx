@@ -18,8 +18,10 @@ const Hero = () => {
             Hi, I'am <span className="text-[#915eff]">Mukesh</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 
-            <span className="text-[#915eff] font-bold drop-shadow-[2px_3px_0px_rgba(240,240,240,0.2)]">{" "}Web and
+            I develop
+            <span className="text-[#915eff] font-bold drop-shadow-[2px_3px_0px_rgba(240,240,240,0.2)]">
+              {" "}
+              Web and
               <br></br> App Application.
             </span>{" "}
             <br className="sm:block hidden" />
@@ -27,7 +29,7 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas />
-      <div className=" absolute xs:bottom-5 bottom-30 w-full flex justify-center items-center">
+      <div className=" absolute xs:bottom-5   w-full flex justify-center items-center" style={{bottom:25}}>
         <a href="#about">
           <div className="w-[35px] h-[65px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.dev
