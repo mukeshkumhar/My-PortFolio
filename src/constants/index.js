@@ -215,7 +215,7 @@ const projects = [
     video: icefactory1,
     image: passwordgen,
     source_code_link_linkdin:
-      "https://www.linkedin.com/in/mukesh-kumhar/",
+      "https://www.linkedin.com/posts/mukesh-kumhar_appdevelopment-mongodb-render-activity-7261589831435051009-wgwg?utm_source=share&utm_medium=member_desktop",
     source_code_link:
       "https://github.com/Codewhatyouwant",
   },
