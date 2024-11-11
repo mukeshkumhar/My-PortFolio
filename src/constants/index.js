@@ -36,6 +36,7 @@ import {
   portfolioweb,
   todolist,
   movies,
+  icefactory1,
   passwordgen,
   passwordvideo,
   recipevideo,
@@ -193,6 +194,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Ice Factory App",
+    description:
+      "User can create customer and create order and generate Pdf of Bill with date and amount",
+    tags: [
+      {
+        name: "Kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MPAndroidChart",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Pdf",
+        color: "pink-text-gradient",
+      },
+    ],
+    video: icefactory1,
+    image: passwordgen,
+    source_code_link_linkdin:
+      "https://www.linkedin.com/in/mukesh-kumhar/",
+    source_code_link:
+      "https://github.com/Codewhatyouwant",
+  },
   {
     name: "Password Generator App",
     description:
