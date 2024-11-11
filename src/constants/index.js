@@ -220,7 +220,7 @@ const projects = [
       "https://github.com/Codewhatyouwant",
   },
   {
-    name: "Password Generator App",
+    name: "Password Generator",
     description:
       "Choose the character types uppercase, lowercase, numbers, or symbols. Easily copy with a LONG PRESS",
     tags: [
