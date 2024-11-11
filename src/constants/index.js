@@ -52,8 +52,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "works",
+    title: "Works",
   },
   {
     id: "contact",
@@ -220,7 +220,11 @@ const projects = [
       "https://github.com/Codewhatyouwant",
   },
   {
+<<<<<<< HEAD
     name: "Password Generator",
+=======
+    name: "Password Generator App",
+>>>>>>> 525d6c4 (adding iceFactory app project in Portfolio)
     description:
       "Choose the character types uppercase, lowercase, numbers, or symbols. Easily copy with a LONG PRESS",
     tags: [

@@ -1,4 +1,4 @@
-import  { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
@@ -19,15 +19,14 @@ const Contact = () => {
   });
   const [loding, setLoading] = useState(false);
 
-
   const handleChange = (e) => {
-    const {target} =e;
+    const { target } = e;
     const { name, value } = target;
 
     setForm({
       ...form,
       [name]: value,
-      });
+    });
   };
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -117,7 +116,7 @@ const Contact = () => {
           </label>
           <button
             type="submit"
-            className=" bg-tertiary py-4 px-8 outline-none w-auto atext-white text-[20px] font-bold shadow-md shadow-primary rounded-[10px] hover:bg-green-800 hover:text-primary w-auto "
+            className=" bg-tertiary py-4 px-8 outline-none w-auto atext-white text-[20px] font-bold shadow-md shadow-primary rounded-[10px] hover:bg-green-800 hover:text-primary "
           >
             {loding ? "Sending..." : "Send"}
           </button>

@@ -1,4 +1,4 @@
-import { Tilt } from "react-tilt";
+
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
@@ -160,12 +160,12 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "works");
+export default SectionWrapper(Works,"Works");
 
-{
-  /* <img
-            src={image}
-            alt={name}
-            className="w-full h-full object-cover rounded-2xl"
-          /> */
-}
+// {
+//   /* <img
+//             src={image}
+//             alt={name}
+//             className="w-full h-full object-cover rounded-2xl"
+//           /> */
+// }

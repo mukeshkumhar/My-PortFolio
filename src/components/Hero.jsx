@@ -16,7 +16,7 @@ const Hero = () => {
         <div>
           <h1 className={`#${styles.heroHeadText}text-white font-bold`}>
             Hi, I'am <span className="text-[#915eff]">Mukesh</span>
-          </h1>
+          </h1> 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop
             <span className="text-[#915eff] font-bold drop-shadow-[2px_3px_0px_rgba(240,240,240,0.2)]">

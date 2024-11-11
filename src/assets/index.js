@@ -48,6 +48,7 @@ import todolist from "./todolist.png";
 import movies from "./movies.png";
 import passwordgen from "./passwordgen.png";
 
+import icefactory1 from "./icefactory1.mp4";
 import passwordvideo from "./passwordvideo.mp4";
 import recipevideo from "./recipevideo.mp4";
 import tictacvideo from "./tictactoivideo.mp4";
@@ -61,6 +62,7 @@ export {
   portfolioweb,
   todolist,
   movies,
+  icefactory1,
   passwordgen,
   passwordvideo,
   recipevideo,
