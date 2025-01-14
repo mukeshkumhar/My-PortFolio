@@ -18,6 +18,7 @@ import javascript from "./tech/javascript.png";
 import androidStudio from "./tech/android-studio-icon.png";
 import java from "./tech/java.png";
 import kotlin1 from "./tech/kotlin.png";
+import nodeJspng from "./nodejscircle.png"
 
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -108,4 +109,5 @@ export {
   tripguide,
   java,
   linkedin,
+  nodeJspng,
 };

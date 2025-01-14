@@ -44,6 +44,7 @@ import {
   todovideo,
   movieVideo,
   portfoliovideo,
+  nodeJspng,
 } from "../assets";
 
 export const navLinks = [
@@ -68,15 +69,15 @@ const services = [
   },
   {
     title: "App Developer",
-    icon: mobile,
+    icon: androidStudio,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Backend",
+    icon: nodeJspng,
   },
   {
-    title: "Video Editor",
-    icon: creator,
+    title: "Database",
+    icon: mongodb,
   },
 ];
 
@@ -85,10 +86,7 @@ const technologies = [
     name: "java",
     icon: java,
   },
-  {
-    name: "Android Studio",
-    icon: androidStudio,
-  },
+
   {
     name: "kotlin",
     icon: kotlin1,
