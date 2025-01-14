@@ -215,7 +215,7 @@ const projects = [
     source_code_link_linkdin:
       "https://www.linkedin.com/posts/mukesh-kumhar_appdevelopment-mongodb-render-activity-7261589831435051009-wgwg?utm_source=share&utm_medium=member_desktop",
     source_code_link:
-      "https://github.com/Codewhatyouwant",
+      "https://github.com/mukeshkumhar/IceFactory",
   },
   {
     name: "Password Generator",
@@ -240,7 +240,7 @@ const projects = [
     source_code_link_linkdin:
       "https://www.linkedin.com/posts/mukesh-kumhar_reactnative-mobiledev-passwordgenerator-activity-7182053356725575680-J4E0?utm_source=share&utm_medium=member_desktop",
     source_code_link:
-      "https://github.com/Codewhatyouwant/Password-Generator-App",
+      "https://github.com/mukeshkumhar/Password-Generator-App",
   },
   {
     name: "Recipe App",
@@ -264,7 +264,7 @@ const projects = [
     image: recipefind,
     source_code_link_linkdin:
       "https://www.linkedin.com/posts/mukesh-kumhar_recipeapp-culinaryadventure-foodiedelight-activity-7156547974976671745-gvBL?utm_source=share&utm_medium=member_desktop",
-    source_code_link: "https://github.com/Codewhatyouwant/Recipe-App",
+    source_code_link: "https://github.com/mukeshkumhar/Recipe-App",
   },
   {
     name: "Todo List App",
@@ -288,7 +288,7 @@ const projects = [
     image: todolist,
     source_code_link_linkdin:
       "https://www.linkedin.com/posts/mukesh-kumhar_reactnative-expo-mongodb-activity-7172046320294064128--FLt?utm_source=share&utm_medium=member_desktop",
-    source_code_link: "https://github.com/Codewhatyouwant/todoList",
+    source_code_link: "https://github.com/mukeshkumhar/todoList",
   },
   {
     name: "Tic Tac Toe ",
@@ -361,7 +361,7 @@ const projects = [
     video: portfoliovideo,
     image: tictactoi,
     source_code_link_linkdin: "linkedin.com/in/mukesh-kumhar",
-    source_code_link: "https://github.com/Codewhatyouwant/PortFolio",
+    source_code_link: "https://github.com/mukeshkumhar/PortFolio",
   },
 ];
 
