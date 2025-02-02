@@ -108,10 +108,10 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      {/* <motion.dev variants={textVariant()}> */}
+      <motion.dev>
       <p className={styles.sectionSubText}>My work</p>
       <h2 className={styles.sectionHeadText}>Projects</h2>
-      {/* </motion.dev> */}
+      </motion.dev>
 
       {/* <motion.p
         variants={fadeIn("", "", 0.1, 1)}
