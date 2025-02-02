@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const DemoImageBanner = [
   {
     id: 0,
@@ -73,4 +77,65 @@ const BannerSlider = () => {
     </div>
   );
 };
-export default BannerSlider;
+
+
+const NextArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", right: "10px", zIndex: 2 }}
+      onClick={onClick}
+    >
+      <button className="absolute top-1/2 transform -translate-y-3 text-white p-2 rounded-full">
+        &#8250;
+      </button>
+    </div>
+  );
+};
+
+const PrevArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", left: "10px", zIndex: 2 }}
+      onClick={onClick}
+    >
+      <button className="absolute w-full h-full top-1/2 left-0 transform -translate-y-3 text-white rounded-full">
+        &#8249;
+      </button>
+    </div>
+  );
+};
+
+const ImageSlider = ({ images }) => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+  };
+
+  return (
+    <Slider {...settings}>
+      {images.map((image, index) => (
+        <div key={index} className="rounded-3xl">
+          <img
+            src={image}
+            alt={`Slide ${index}`}
+            className="w-full h-full object-cover rounded-3xl"
+          />
+        </div>
+      ))}
+    </Slider>
+  );
+};
+
+export {BannerSlider, ImageSlider};

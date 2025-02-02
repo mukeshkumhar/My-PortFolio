@@ -21,7 +21,6 @@ import {
   shopify,
   carrent,
   androidstudio,
-  androidStudio,
   reactnative,
   kotlin,
   webpage,
@@ -45,6 +44,29 @@ import {
   movieVideo,
   portfoliovideo,
   nodeJspng,
+  ice1,
+  ice2,
+  kana1,
+  kana2,
+  kana3,
+  kana4,
+  password1,
+  password2,
+  password3,
+  password4,
+  todolist1,
+  todolist2,
+  todolist3,
+  todolist4,
+  tictack1,
+  tictack2,
+  tictack3,
+  tictack4,
+  movie1,
+  movie2,
+  movie3,
+  portfolio1,
+  portfolio2,
 } from "../assets";
 
 export const navLinks = [
@@ -69,7 +91,7 @@ const services = [
   },
   {
     title: "App Developer",
-    icon: androidStudio,
+    icon: androidstudio,
   },
   {
     title: "Backend",
@@ -210,6 +232,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    images: [ice1, ice2,],
     video: icefactory1,
     image: passwordgen,
     source_code_link_linkdin:
@@ -235,6 +258,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    images: [password1, password2, password3, password4],
     video: passwordvideo,
     image: passwordgen,
     source_code_link_linkdin:
@@ -260,6 +284,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    images: [kana1, kana2, kana3, kana4],
     video: recipevideo,
     image: recipefind,
     source_code_link_linkdin:
@@ -284,6 +309,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    images: [todolist1, todolist2, todolist3, todolist4],
     video: todovideo,
     image: todolist,
     source_code_link_linkdin:
@@ -308,6 +334,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    images: [tictack1, tictack2, tictack3, tictack4],
     video: tictacvideo,
     image: tictactoi,
     source_code_link_linkdin:
@@ -333,6 +360,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    images: [movie1, movie2, movie3],
     video: movieVideo,
     image: tictactoi,
     source_code_link_linkdin:
@@ -358,6 +386,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    images: [portfolio1, portfolio2],
     video: portfoliovideo,
     image: tictactoi,
     source_code_link_linkdin: "linkedin.com/in/mukesh-kumhar",

@@ -15,7 +15,6 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import androidStudio from "./tech/android-studio-icon.png";
 import java from "./tech/java.png";
 import kotlin1 from "./tech/kotlin.png";
 import nodeJspng from "./nodejscircle.png"
@@ -32,7 +31,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import androidstudio from "./company/android-studio-icon.png"
+import androidstudio from "./tech/android-studio-icon.png"
 import reactnative from "./company/react-native.png";
 import kotlin from "./company/kotlin.png";
 import react from "./company/react.png";
@@ -56,6 +55,31 @@ import tictacvideo from "./tictactoivideo.mp4";
 import todovideo from "./todolist.mp4";
 import movieVideo from "./movie.mp4";
 import portfoliovideo from "./portfolio.mp4";
+
+import ice1 from "./ice1.png";
+import ice2 from "./ice2.png";
+import kana1 from "./khana1.png";
+import kana2 from "./kana2.png";
+import kana3 from "./kana3.png";
+import kana4 from "./kana4.png";
+import password1 from "./pass1.png";
+import password2 from "./pass2.png";
+import password3 from "./pass3.png";
+import password4 from "./pass4.png";
+import todolist1 from "./todolist1.png";
+import todolist2 from "./todolist2.png";
+import todolist3 from "./todolist3.png";
+import todolist4 from "./todolist4.png";
+import tictack1 from "./tictack1.png";
+import tictack2 from "./tictack2.png";
+import tictack3 from "./tictack3.png";
+import tictack4 from "./tictack4.png";
+import movie1 from "./movie1.png";
+import movie2 from "./movie2.png";
+import movie3 from "./movie3.png";
+import portfolio1 from "./portfolio1.png";
+import portfolio2 from "./portfolio2.png";
+
 
 export {
   tictactoi,
@@ -98,7 +122,6 @@ export {
   starbucks,
   tesla,
   androidstudio,
-  androidStudio,
   kotlin,
   kotlin1,
   reactnative,
@@ -110,4 +133,27 @@ export {
   java,
   linkedin,
   nodeJspng,
+  ice1,
+  ice2,
+  kana1,
+  kana2,
+  kana3,
+  kana4,
+  password1,
+  password2,
+  password3,
+  password4,
+  todolist1,
+  todolist2,
+  todolist3,
+  todolist4,
+  tictack1,
+  tictack2,
+  tictack3,
+  tictack4,
+  movie1,
+  movie2,
+  movie3,
+  portfolio1,
+  portfolio2,
 };
