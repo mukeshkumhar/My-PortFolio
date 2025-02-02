@@ -49,7 +49,7 @@ const About = () => {
         coding, I enjoy Video Editing. <br></br>I'm always looking to expand my knowledge
         and take on new challenges.<br></br> I'm particularly interested in App Development.
       </motion.p>
-      <div className=" mt-16 flex flex-wrap gap-10">
+      <div className=" mt-16 flex flex-wrap gap-10 justify-center">
         {services.map((services, index) => (
           <SearviceCard key={services.title} index={index} {...services} />
         ))}

@@ -5,6 +5,7 @@ import { linkedin } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import BannerSlider from "./ImageSlider";
 
 const ProjectCard = ({
   index,
@@ -20,10 +21,11 @@ const ProjectCard = ({
   return (
     <>
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-        <div className=" bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full opacity-100">
-          <div className="relative w-full xl:h-[200px] h-[200px] md:h-[200px] opacity-100">
+        <div className=" bg-tertiary p-5 rounded-2xl sm:w-full w-full opacity-100">
+          <div className="relative w-full xl:h-[480px] h-[800px] md:h-[200px] opacity-100">
             <div className="w-full h-full object-cover rounded-xl">
-              <video
+              <BannerSlider />
+              {/* <video
                 src={video}
                 alt={"VIDEO"}
                 className=" w-full h-full object-cover rounded-xl"
@@ -31,29 +33,7 @@ const ProjectCard = ({
                   e.target.controls = true;
                   e.target.play();
                 }}
-              />
-            </div>
-            <div className=" absolute inset-0 flex justify-end m-1 card-img_hover">
-              <div
-                onClick={() => window.open(source_code_link, "-blank")}
-                className=" bg-tertiary w-8 h-8 mr-1 rounded-full flex justify-center items-center cursor-pointer"
-              >
-                <img
-                  src={github}
-                  alt="github"
-                  className=" w-7 h-7 object-contain"
-                />
-              </div>
-              <div
-                onClick={() => window.open(source_code_link_linkdin, "-blank")}
-                className=" bg-tertiary w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
-              >
-                <img
-                  src={linkedin}
-                  alt="github"
-                  className="w-8 h-8 object-contain"
-                />
-              </div>
+              /> */}
             </div>
           </div>
           <div>
@@ -70,6 +50,52 @@ const ProjectCard = ({
               </p>
             ))}
           </div>
+
+          <div className="w-full flex m-1 card-img_hover">
+            <div
+              onClick={() => window.open(source_code_link, "-blank")}
+              className=" bg-blue-600 w-1/2 h-10 mr-1 rounded-[5px] flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="github"
+                className=" w-7 h-7 object-contain"
+              />
+            </div>
+            <div
+              onClick={() => window.open(source_code_link_linkdin, "-blank")}
+              className="bg-blue-600 w-1/2 h-10 rounded-[5px] flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={linkedin}
+                alt="github"
+                className="w-8 h-8 object-contain"
+              />
+            </div>
+          </div>
+
+          {/* <div className="w-full flex justify-end m-1 card-img_hover">
+            <div
+              onClick={() => window.open(source_code_link, "-blank")}
+              className=" bg-tertiary w-8 h-8 mr-1 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="github"
+                className=" w-7 h-7 object-contain"
+              />
+            </div>
+            <div
+              onClick={() => window.open(source_code_link_linkdin, "-blank")}
+              className=" bg-tertiary w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={linkedin}
+                alt="github"
+                className="w-8 h-8 object-contain"
+              />
+            </div>
+          </div> */}
 
           {/* <Tilt
             option={{
