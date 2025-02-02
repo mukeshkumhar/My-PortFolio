@@ -7,6 +7,7 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import BannerSlider from "./ImageSlider";
 
+
 const ProjectCard = ({
   index,
   name,
@@ -20,7 +21,7 @@ const ProjectCard = ({
 }) => {
   return (
     <>
-      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <motion.dev variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <div className=" bg-tertiary p-5 rounded-2xl sm:w-full w-full opacity-100">
           <div className="relative w-full xl:h-[480px] h-[800px] md:h-[200px] opacity-100">
             <div className="w-full h-full object-cover rounded-xl">
@@ -96,68 +97,8 @@ const ProjectCard = ({
               />
             </div>
           </div> */}
-
-          {/* <Tilt
-            option={{
-              max: 45,
-              scale: 1,
-              speed: 450,
-            }}
-            className=" bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-          >
-            <div className="relative w-full h-[200px] opacity-100">
-              <video
-                src={video}
-                alt={name}
-                autoPlay="true"
-                muted
-                loop
-                className=" w-full h-full object-cover rounded-xl"
-              />
-
-              
-
-              <div className=" absolute inset-0 flex justify-end m-1 card-img_hover">
-                <div
-                  onClick={() => window.open(source_code_link, "-blank")}
-                  className=" bg-tertiary w-8 h-8 mr-1 rounded-full flex justify-center items-center cursor-pointer"
-                >
-                  <img
-                    src={github}
-                    alt="github"
-                    className=" w-7 h-7 object-contain"
-                  />
-                </div>
-                <div
-                  onClick={() =>
-                    window.open(source_code_link_linkdin, "-blank")
-                  }
-                  className=" bg-tertiary w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
-                >
-                  <img
-                    src={linkedin}
-                    alt="github"
-                    className="w-8 h-8 object-contain"
-                  />
-                </div>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-white font-bold text-[24px]">{name}</h3>
-              <p className="mt-2 text-secondary text-[14px] text-justify">
-                {description}
-              </p>
-            </div>
-            <div className="mt-4 flex flex-wrap gap-2">
-              {tags.map((tag) => (
-                <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-                  #{tag.name}
-                </p>
-              ))}
-            </div>
-          </Tilt> */}
         </div>
-      </motion.div>
+      </motion.dev>
     </>
   );
 };
@@ -189,10 +130,3 @@ const Works = () => {
 
 export default SectionWrapper(Works, "works");
 
-// {
-//   /* <img
-//             src={image}
-//             alt={name}
-//             className="w-full h-full object-cover rounded-2xl"
-//           /> */
-// }
