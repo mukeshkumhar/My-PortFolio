@@ -79,6 +79,8 @@ import movie2 from "./movie2.png";
 import movie3 from "./movie3.png";
 import portfolio1 from "./portfolio1.png";
 import portfolio2 from "./portfolio2.png";
+import good1 from "./good1.png";
+import good2 from "./good2.png";
 
 
 export {
@@ -156,4 +158,6 @@ export {
   movie3,
   portfolio1,
   portfolio2,
+  good1,
+  good2,
 };

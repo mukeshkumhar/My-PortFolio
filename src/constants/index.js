@@ -67,6 +67,8 @@ import {
   movie3,
   portfolio1,
   portfolio2,
+  good1,
+  good2,
 } from "../assets";
 
 export const navLinks = [
@@ -239,6 +241,32 @@ const projects = [
       "https://www.linkedin.com/posts/mukesh-kumhar_appdevelopment-mongodb-render-activity-7261589831435051009-wgwg?utm_source=share&utm_medium=member_desktop",
     source_code_link:
       "https://github.com/mukeshkumhar/IceFactory",
+  },
+  {
+    name: "Good Health",
+    description:
+      "A mobile application designed to empower users to manage their health and well-being. Good Health integrates Gemini AI for health-related queries, provides detailed information on medications, and offers quick access to emergency services.",
+    tags: [
+      {
+        name: "Kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Android Studio",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Gemini AI",
+        color: "pink-text-gradient",
+      },
+    ],
+    images: [good1, good2,],
+    video: icefactory1,
+    image: passwordgen,
+    source_code_link_linkdin:
+      "https://www.linkedin.com/posts/mukesh-kumhar_androiddev-kotlin-mobileapp-activity-7293684216469303296-WIq7?utm_source=share&utm_medium=member_desktop",
+    source_code_link:
+      "https://github.com/mukeshkumhar/Good_Health_App",
   },
   {
     name: "Password Generator",
