@@ -241,6 +241,8 @@ const projects = [
       "https://www.linkedin.com/posts/mukesh-kumhar_appdevelopment-mongodb-render-activity-7261589831435051009-wgwg?utm_source=share&utm_medium=member_desktop",
     source_code_link:
       "https://github.com/mukeshkumhar/IceFactory",
+    run_app_link: "",
+    download_link: "",
   },
   {
     name: "Good Health",
@@ -267,6 +269,8 @@ const projects = [
       "https://www.linkedin.com/posts/mukesh-kumhar_androiddev-kotlin-mobileapp-activity-7293684216469303296-WIq7?utm_source=share&utm_medium=member_desktop",
     source_code_link:
       "https://github.com/mukeshkumhar/Good_Health_App",
+    run_app_link: "https://appetize.io/embed/b_lbqy4avj4wcmksoobrnr62hs6i",
+    download_link: "https://drive.google.com/file/d/1BlgG4hUWpvOZlPy1kJt26p3TOYzPdn59/view?usp=sharing",
   },
   {
     name: "Password Generator",
@@ -293,6 +297,8 @@ const projects = [
       "https://www.linkedin.com/posts/mukesh-kumhar_reactnative-mobiledev-passwordgenerator-activity-7182053356725575680-J4E0?utm_source=share&utm_medium=member_desktop",
     source_code_link:
       "https://github.com/mukeshkumhar/Password-Generator-App",
+    run_app_link: "",
+    download_link: "",
   },
   {
     name: "Recipe App",
@@ -318,6 +324,8 @@ const projects = [
     source_code_link_linkdin:
       "https://www.linkedin.com/posts/mukesh-kumhar_recipeapp-culinaryadventure-foodiedelight-activity-7156547974976671745-gvBL?utm_source=share&utm_medium=member_desktop",
     source_code_link: "https://github.com/mukeshkumhar/Recipe-App",
+    run_app_link: "",
+    download_link: "https://drive.google.com/file/d/1Jes4YpnsA9B9Gfi0L49Js2ENzWzcpeE8/view?usp=sharing",
   },
   {
     name: "Todo List App",
@@ -343,6 +351,8 @@ const projects = [
     source_code_link_linkdin:
       "https://www.linkedin.com/posts/mukesh-kumhar_reactnative-expo-mongodb-activity-7172046320294064128--FLt?utm_source=share&utm_medium=member_desktop",
     source_code_link: "https://github.com/mukeshkumhar/todoList",
+    run_app_link: "",
+    download_link: "",
   },
   {
     name: "Tic Tac Toe ",
@@ -369,6 +379,8 @@ const projects = [
       "https://www.linkedin.com/posts/mukesh-kumhar_androiddev-java-gamedevelopment-activity-7136625284530769920-Qqh4?utm_source=share&utm_medium=member_desktop",
     source_code_link:
       "https://www.linkedin.com/posts/mukesh-kumhar_androiddev-java-gamedevelopment-activity-7136625284530769920-Qqh4?utm_source=share&utm_medium=member_desktop",
+    run_app_link: "",
+    download_link: "",
   },
   {
     name: "Movies Website",
@@ -395,6 +407,8 @@ const projects = [
       "https://github.com/Codewhatyouwant/Movies-Website/tree/main/Movies%20Webside-1",
     source_code_link:
       "https://github.com/Codewhatyouwant/Movies-Website/tree/main/Movies%20Webside-1",
+    run_app_link: "",
+    download_link: "",
   },
   {
     name: "PortFolio Website",
@@ -419,6 +433,8 @@ const projects = [
     image: tictactoi,
     source_code_link_linkdin: "linkedin.com/in/mukesh-kumhar",
     source_code_link: "https://github.com/mukeshkumhar/PortFolio",
+    run_app_link: "",
+    download_link: "",
   },
 ];
 

@@ -4,6 +4,7 @@ import { github } from "../assets";
 import { linkedin } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
+import React, { useState } from "react";
 import { fadeIn, textVariant } from "../utils/motion";
 import { BannerSlider, ImageSlider } from "./ImageSlider";
 
@@ -18,7 +19,10 @@ const ProjectCard = ({
   images,
   source_code_link,
   source_code_link_linkdin,
+  run_app_link,
+  download_link,
 }) => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
       {/* <motion.dev variants={fadeIn("up", "spring", index * 0.5, 0.75)}> */}
@@ -54,10 +58,10 @@ const ProjectCard = ({
           ))}
         </div>
 
-        <div className="w-full flex m-1 card-img_hover pt-2">
+        <div className="w-full flex sm:flex-row flex-col m-1 card-img_hover pt-2">
           <div
             onClick={() => window.open(source_code_link, "-blank")}
-            className=" bg-blue-600 w-1/2 h-10 mr-1 rounded-[5px] flex justify-center items-center cursor-pointer"
+            className=" bg-blue-600  sm:w-full h-10 mr-1 mb-1 rounded-[5px] flex justify-center items-center cursor-pointer"
           >
             <img
               src={github}
@@ -67,7 +71,7 @@ const ProjectCard = ({
           </div>
           <div
             onClick={() => window.open(source_code_link_linkdin, "-blank")}
-            className="bg-blue-600 w-1/2 h-10 rounded-[5px] flex justify-center items-center cursor-pointer"
+            className="bg-blue-600  sm:w-full h-10 mr-1 mb-1 rounded-[5px] flex justify-center items-center cursor-pointer"
           >
             <img
               src={linkedin}
@@ -75,31 +79,43 @@ const ProjectCard = ({
               className="w-8 h-8 object-contain"
             />
           </div>
+          <div
+            onClick={() => window.open(run_app_link, "-blank")}
+            className="bg-blue-600 sm:w-full h-10 mr-1 mb-1 rounded-[5px] flex justify-center items-center cursor-pointer"
+          >
+            <text className="text-white font-bold text-[14px]">Run App</text>
+          </div>
+          <div
+            onClick={() => window.open(download_link, "-blank")}
+            className="bg-blue-600 sm:w-full h-10 mr-1  rounded-[5px] flex justify-center items-center cursor-pointer"
+          >
+            <text className="text-white font-bold text-[14px]">Downlode</text>
+          </div>
         </div>
-
-        {/* <div className="w-full flex justify-end m-1 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "-blank")}
-              className=" bg-tertiary w-8 h-8 mr-1 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="github"
-                className=" w-7 h-7 object-contain"
-              />
-            </div>
-            <div
-              onClick={() => window.open(source_code_link_linkdin, "-blank")}
-              className=" bg-tertiary w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={linkedin}
-                alt="github"
-                className="w-8 h-8 object-contain"
-              />
-            </div>
-          </div> */}
       </div>
+
+      {/* Modal for Live App */}
+      {showModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-60 flex justify-center items-center z-50">
+          <div className="bg-white rounded-xl p-4 max-w-3xl w-full h-[600px] relative">
+            <button
+              onClick={() => setShowModal(false)}
+              className="absolute top-2 right-3 text-black text-3xl font-normal"
+              style={{ cursor: "pointer" }}
+            >
+              &times;
+            </button>
+            <iframe
+              title="Live Demo"
+              src={run_app_link}
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              allow="fullscreen"
+            ></iframe>
+          </div>
+        </div>
+      )}
       {/* </motion.dev> */}
     </>
   );
