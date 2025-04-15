@@ -4,26 +4,27 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({isMobile}) => {
+const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
     <mesh>
       <hemisphereLight intensity={4.15} groundColor="black" />
       <pointLight intensity={1} />
-      <spotLight 
-      position={[-20,50,10]}
-      angle={0.12}
-      penumbra={1}
-      intensity={1}
-      castShadow
-      shadow-mapSize={1024}
+      <spotLight
+        position={[-20, 50, 10]}
+        angle={0.12}
+        penumbra={1}
+        intensity={1}
+        castShadow
+        shadow-mapSize={1024}
       />
-      <primitive 
-      object={computer.scene}
-      scale={isMobile ? 0.7 :0.75}
-      position={isMobile ? [0,-2.8,-2.4]:[0,-2.7,-1.5]}
-      rotation={isMobile? [-0.01,0.4,0]:[-0.01,-0.2,-0.1]} />
+      <primitive
+        object={computer.scene}
+        scale={isMobile ? 0.7 : 0.75}
+        position={isMobile ? [0, -2, -2.4] : [0, -2.7, -1.5]}
+        rotation={isMobile ? [-0.01, 0.4, 0] : [-0.01, -0.2, -0.1]}
+      />
     </mesh>
   );
 };
@@ -31,17 +32,17 @@ const Computers = ({isMobile}) => {
 const ComputersCanvas = () => {
   const [isMobile, setisMobile] = useState(false);
 
-  useEffect (()=>{
-    const mediaQuery = window.matchMedia('(max-width:500px)');
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width:500px)");
     setisMobile(mediaQuery.matches);
     const handleMediaQueryChange = (event) => {
       setisMobile(event.matches);
-    }
-    mediaQuery.addEventListener('change',handleMediaQueryChange);
-    return() => {
-      mediaQuery.removeEventListener('change', handleMediaQueryChange);
-    }
-  },)
+    };
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  });
   return (
     <Canvas
       frameloop="demand"
@@ -57,7 +58,7 @@ const ComputersCanvas = () => {
         />
         <Computers isMobile={isMobile} />
       </Suspense>
-      <Preload all/>
+      <Preload all />
     </Canvas>
   );
 };

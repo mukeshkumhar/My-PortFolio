@@ -39,21 +39,20 @@ const About = () => {
       </motion.dev>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] leading-[30px] max-w-3xl"
+        className="mt-4 text-secondary text-[17px] leading-[30px] max-w-4xl"
       >
         Hi, I'm Mukesh Kumhar, a passionate software developer dedicated to
         transforming ideas into impactful digital experiences.<br></br> I
         specialize in building intuitive and efficient{" "}
-        <span className="font-bold text-white"> Mobile applications</span> that
+        <span className="font-normal text-white"> Mobile Apps</span> that
         address real-world challenges.<br></br>
         With expertise in
-        <span className="font-bold text-white">
-          Java, Kotlin, React-Native, Node.js, Express, and JavaScript,</span>
+        <span className="font-normal text-white"> Java, Kotlin, React-Native, Node.js, Express, and JavaScript </span>
         I thrive on crafting clean, user-focused solutions that make technology
-        accessible and engaging. Beyond coding, I'm an avid video editor who
-        loves storytelling through visuals. I'm constantly exploring new
+        accessible and engaging.<br></br> Beyond coding, I'm an avid video editor who
+        loves storytelling through visuals.<br></br> I'm constantly exploring new
         technologies, expanding my skillset, and taking on challenges that push
-        my creativity and technical abilities. I'm especially enthusiastic about
+        my creativity and technical abilities.<br></br> I'm especially enthusiastic about
         App Development, where functionality meets user experience.
       </motion.p>
       <div className=" mt-16 flex flex-wrap gap-10 justify-center">

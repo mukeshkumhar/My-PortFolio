@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
-
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -17,7 +16,7 @@ const Hero = () => {
         <div>
           <h1 className={`#${styles.heroHeadText}text-white font-bold`}>
             Hi, I'am <span className="text-[#915eff]">Mukesh</span>
-          </h1> 
+          </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop
             <span className="text-[#915eff] text-[30px]  font-bold drop-shadow-[2px_3px_0px_rgba(240,240,240,0.1)]">
@@ -29,9 +28,12 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas /> 
-      
-      <div className=" absolute xs:bottom-5   w-full flex justify-center items-center" style={{bottom:10}}>
+      <ComputersCanvas />
+
+      <div
+        className=" absolute xs:bottom-5   w-full flex justify-center items-center"
+        style={{ bottom: 10 }}
+      >
         <a href="#about">
           <div className="w-[35px] h-[65px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.dev
