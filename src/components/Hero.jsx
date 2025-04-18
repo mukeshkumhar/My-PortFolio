@@ -21,7 +21,7 @@ const Hero = () => {
             I develop
             <span className="text-[#915eff] text-[30px]  font-bold drop-shadow-[2px_3px_0px_rgba(240,240,240,0.1)]">
               {" "}
-              Mobile App
+              Mobile Apps
               {/* <br></br> App Application. */}
             </span>{" "}
             <br className="sm:block hidden" />

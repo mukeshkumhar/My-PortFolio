@@ -47,7 +47,7 @@ const About = () => {
         <span className="font-normal text-white"> Mobile Apps</span> that
         address real-world challenges.<br></br>
         With expertise in
-        <span className="font-normal text-white"> Java, Kotlin, React-Native, Node.js, Express, and JavaScript </span>
+        <span className="font-normal text-white"> Kotlin, React-Native, Node.js, Express, and JavaScript </span>
         I thrive on crafting clean, user-focused solutions that make technology
         accessible and engaging.<br></br> Beyond coding, I'm an avid video editor who
         loves storytelling through visuals.<br></br> I'm constantly exploring new

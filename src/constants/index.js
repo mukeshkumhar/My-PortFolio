@@ -217,9 +217,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Ice Factory App",
+    name: "Ice Factory Management App",
     description:
-      "User can create customer and create order and generate Pdf of Bill with date and amount",
+      "Create & Manage Customers with email tracking Generate Detailed Bills(PDF format) organized by date, showcasing the factory name, logo, and an Excel- like structure with details on ice weight, pricing, packaging, and total cost. It's may take time upto 1 min if you are testing for the first time retry after 30 seconds. For Testing Use this ->  \n User Id: ice@gmail.com & Password: ice",
     tags: [
       {
         name: "Kotlin",
@@ -241,8 +241,8 @@ const projects = [
       "https://www.linkedin.com/posts/mukesh-kumhar_appdevelopment-mongodb-render-activity-7261589831435051009-wgwg?utm_source=share&utm_medium=member_desktop",
     source_code_link:
       "https://github.com/mukeshkumhar/IceFactory",
-    run_app_link: "",
-    download_link: "",
+    run_app_link: "https://appetize.io/embed/b_wa4hgvvpcrl5gv3jgm2c2uodvi",
+    download_link: "https://drive.google.com/file/d/1jQ3K4CmLKaIgpJDPh_9btErUqFKF707x/view?usp=sharing",
   },
   {
     name: "Good Health",
@@ -272,6 +272,34 @@ const projects = [
     run_app_link: "https://appetize.io/embed/b_lbqy4avj4wcmksoobrnr62hs6i",
     download_link: "https://drive.google.com/file/d/1BlgG4hUWpvOZlPy1kJt26p3TOYzPdn59/view?usp=sharing",
   },
+  
+  {
+    name: "Recipe App",
+    description:
+      "🥗 Dive into the simplicity of four distinct categories: Salad, Main, Dessert, and Drinks. Each recipe comes with a time indicator.",
+    tags: [
+      {
+        name: "Kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Android Studio",
+        color: "green-text-gradient",
+      },
+      {
+        name: "XML",
+        color: "pink-text-gradient",
+      },
+    ],
+    images: [kana1, kana2, kana3, kana4],
+    video: recipevideo,
+    image: recipefind,
+    source_code_link_linkdin:
+      "https://www.linkedin.com/posts/mukesh-kumhar_recipeapp-culinaryadventure-foodiedelight-activity-7156547974976671745-gvBL?utm_source=share&utm_medium=member_desktop",
+    source_code_link: "https://github.com/mukeshkumhar/Recipe-App",
+    run_app_link: "https://appetize.io/embed/b_wl3wdxvzsxsmcmtkdvtw2sbeoq",
+    download_link: "https://drive.google.com/file/d/1Jes4YpnsA9B9Gfi0L49Js2ENzWzcpeE8/view?usp=sharing",
+  },
   {
     name: "Password Generator",
     description:
@@ -299,33 +327,6 @@ const projects = [
       "https://github.com/mukeshkumhar/Password-Generator-App",
     run_app_link: "",
     download_link: "",
-  },
-  {
-    name: "Recipe App",
-    description:
-      "🥗 Dive into the simplicity of four distinct categories: Salad, Main, Dessert, and Drinks. Each recipe comes with a time indicator.",
-    tags: [
-      {
-        name: "Kotlin",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Android Studio",
-        color: "green-text-gradient",
-      },
-      {
-        name: "XML",
-        color: "pink-text-gradient",
-      },
-    ],
-    images: [kana1, kana2, kana3, kana4],
-    video: recipevideo,
-    image: recipefind,
-    source_code_link_linkdin:
-      "https://www.linkedin.com/posts/mukesh-kumhar_recipeapp-culinaryadventure-foodiedelight-activity-7156547974976671745-gvBL?utm_source=share&utm_medium=member_desktop",
-    source_code_link: "https://github.com/mukeshkumhar/Recipe-App",
-    run_app_link: "",
-    download_link: "https://drive.google.com/file/d/1Jes4YpnsA9B9Gfi0L49Js2ENzWzcpeE8/view?usp=sharing",
   },
   {
     name: "Todo List App",
