@@ -80,6 +80,10 @@ import portfolio1 from "./portfolio1.png";
 import portfolio2 from "./portfolio2.png";
 import good1 from "./good1.png";
 import good2 from "./good2.png";
+import docverify1 from "./docverifypro1.png";
+import docverify2 from "./docverifypro2.png";
+import quantum1 from "./quantum1.png";
+import quantum2 from "./quantum2.png";
 
 
 export {
@@ -159,4 +163,8 @@ export {
   portfolio2,
   good1,
   good2,
+  docverify1,
+  docverify2,
+  quantum1,
+  quantum2,
 };

@@ -69,6 +69,10 @@ import {
   portfolio2,
   good1,
   good2,
+  docverify1,
+  docverify2,
+  quantum1,
+  quantum2,
 } from "../assets";
 
 export const navLinks = [
@@ -217,6 +221,34 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Quantum Simulator App",
+    description:
+      "Quantum Simulator is a mobile-first learning and prototyping environment that puts the power of IBM’s Qiskit SDK in the palm of your hand.\nQuantum Basics\nBite-size tutorials and interactive diagrams that explain qubits, superposition, entanglement, and common gates—perfect for newcomers\nQuantum Code Editor\nWrite Qiskit-style Python snippets directly inside the app with syntax highlighting, autocomplete, and one-tap execution.\nCircuit Simulator\nDrag-and-drop gates, run the circuit on the built-in Aer backend, and view results as Bloch spheres, probability pie charts, or complex state-vector matrices.",
+    tags: [
+      {
+        name: "Frontend: Kotlin + XML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Backend API: FastAPI (Python) with Qiskit and NumPy, containerized & deployed on Render.com",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Computation: Qiskit Aer for local simulation; ready to swap in real IBM Quantum backends",
+        color: "pink-text-gradient",
+      },
+    ],
+    images: [quantum1, quantum2,],
+    video: icefactory1,
+    image: passwordgen,
+    source_code_link_linkdin:
+      "https://www.linkedin.com/posts/mukesh-kumhar_quantumsimulator-qiskit-ibmq-activity-7342135266028961792-TscG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADmNWJ8BdXPvJ2Z7tPZVJwMSBAlFWDzOpf8",
+    source_code_link:
+      "https://github.com/mukeshkumhar/Quantum-Simulator-App",
+    run_app_link: "",
+    download_link: "",
+  },
+  {
     name: "Ice Factory Management App",
     description:
       "Create & Manage Customers with email tracking Generate Detailed Bills(PDF format) organized by date, showcasing the factory name, logo, and an Excel- like structure with details on ice weight, pricing, packaging, and total cost. It's may take time upto 1 min if you are testing for the first time retry after 30 seconds. For Testing Use this ->  \n User Id: ice@gmail.com & Password: ice",
@@ -243,6 +275,34 @@ const projects = [
       "https://github.com/mukeshkumhar/IceFactory",
     run_app_link: "https://appetize.io/embed/b_wa4hgvvpcrl5gv3jgm2c2uodvi",
     download_link: "https://drive.google.com/file/d/1jQ3K4CmLKaIgpJDPh_9btErUqFKF707x/view?usp=sharing",
+  },
+  {
+    name: "DocVerifyPro App",
+    description:
+      "DocVerifyPro is a multifunctional mobile app designed to make document handling fast, accurate, and mobile-friendly.\nHere’s a quick rundown of what it can do:\nParses PDFs in seconds, extracting name, email, phone, address, projects, and skills.\nCalculates a skill-match percentage and auto-saves only those resumes that meet or exceed a custom threshold.\nSaved-Resumes page lets recruiters review every matched candidate at a glance.\nText → QR: Create QR codes for any text, URL, or note right from your phone\nQR Scanner: Instantly decode and display information from any QR code",
+    tags: [
+      {
+        name: "Frontend: Kotlin, Android Jetpack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Backend: Node.js / Express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Data Persistence: Room DB for on-device caching + JWT-secured API calls",
+        color: "pink-text-gradient",
+      },
+    ],
+    images: [docverify1, docverify2,],
+    video: icefactory1,
+    image: passwordgen,
+    source_code_link_linkdin:
+      "https://www.linkedin.com/posts/mukesh-kumhar_docverifypro-androiddev-kotlin-activity-7342133395814043648-sRXO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADmNWJ8BdXPvJ2Z7tPZVJwMSBAlFWDzOpf8",
+    source_code_link:
+      "https://github.com/mukeshkumhar/DocVerifyPro",
+    run_app_link: "",
+    download_link: "",
   },
   {
     name: "Good Health",
